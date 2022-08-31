@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <p style= "color: green"> mi papa se llama {{nombre}} </p>
+    <p style=" color: red"> su profesion es {{trabajo}} </p>
+
+    <h1>un poco de la vida de mi papa</h1>
+
+    <h3> lista de materias aprobadas de su primer cuatrimestre: </h3>
+    <p>
+    
+    {% for n in materias %}
+        {{n}}
+        <br>
+
+    {% endfor %}
+
+    </p>
+
+
+</body>
+</html>
